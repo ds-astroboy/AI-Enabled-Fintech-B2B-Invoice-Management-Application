@@ -1,0 +1,920 @@
+*{
+    box-sizing: border-box;
+}
+:root {
+    --blue: #356680;
+    --white: #ffffff;
+    --btnblue:#14AFF1;
+  }
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu:wght@300&display=swap');
+
+body{
+    
+    width: 1920px;
+    height: 930px;
+    opacity: 1;
+    position: relative;
+    background: transparent radial-gradient(closest-side at 50% 50%, #58687E 0%, #39495E 100%) 0% 0% repeat padding-box;
+}
+.header
+{   
+    margin-top: 0px;
+    margin-left: 0px;
+    width: 1920px;
+    height: 80px;
+    float: left;
+    position: absolute;
+    
+}
+
+.abcproducts img
+{
+    display: inline-block;  
+    position: absolute;
+    margin-top: 20px;
+    margin-left: 30px;
+    width: 289px;
+    height: 52px;
+    background: #CD7925 0% 0% no-repeat padding-box;
+    opacity: 1;
+}
+
+.logo
+{
+    margin-top: 22px;
+    margin-left: 843px;
+    margin-right: 843px;
+    width: 235px;
+    height: 50px;
+    display: inline-block;
+    position: absolute;
+}
+#highradius
+{
+    
+    background: transparent url('img/logo.png') 0% 0% no-repeat padding-box;
+    opacity: 1;
+}
+.invoice_list p
+{
+    position:absolute;
+    margin-top: 100px;
+    margin-left: 30px;
+    text-align: left;
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 28px;
+    width: 141px;
+    height: 31px;
+    letter-spacing: 0px;
+    color: #FFFFFF;
+    opacity: 1;
+}
+.invoice_table{
+    position: absolute;
+    top: 160px;
+    left: 20px;
+    width: 1860px;
+    height: 739px;
+    background: #273D49CC 0% 0% no-repeat padding-box;
+    border-radius: 10px;
+    opacity: 1;
+}
+.menu_bar
+{
+    position: absolute;
+    width: 100%;
+    height: auto;
+}
+.menu_bar #add_btn
+{
+    position: absolute;
+    float: left;
+    margin-left: 1106px;
+    margin-top: 30px;
+    width: 99px;
+    height: 45px;
+    border: 1px solid #14AFF1;
+    background-color: #273D49CC;
+    border-radius: 10px;
+    opacity: 1;
+    cursor: pointer;
+    
+}
+.menu_bar #add_btn img{
+    width: 15px;
+    height: 15px;
+    padding: 0%;
+    margin-left: -45px;
+    margin-top: 13px;
+}
+.menu_bar #add_btn p
+{
+    margin-top: -22px;
+    margin-left: 35px;
+    font-size: 20px;
+    font-style: normal;
+    font-family: 'Ubuntu', sans-serif;
+    letter-spacing: 0px;
+    color: #FFFFFF;
+    opacity: 1;
+    width: 37px;
+    height: 23px;
+}
+
+
+.menu_bar #edit_btn
+{
+    position: absolute;
+    float: left;
+    cursor: pointer;
+    margin-left: 1243px;
+    margin-top: 30px;
+    width: 99px;
+    height: 45px;
+    background-color: #273D49CC;
+    border: 1px solid #97A1A9;
+    border-radius: 10px;
+    opacity: 1;
+    
+}
+.menu_bar #edit_btn img{
+    width: 15px;
+    height: 15px;
+    padding: 0%;
+    margin-left: -45px;
+    margin-top: 13px;
+}
+.menu_bar #edit_btn p
+{
+    margin-top: -22px;
+    margin-left: 35px;
+    font-size: 20px;
+    font-style: normal;
+    font-family: 'Ubuntu', sans-serif;
+    letter-spacing: 0px;
+    color: #97A1A9;
+    opacity: 1;
+    width: 37px;
+    height: 23px;
+}
+.menu_bar #delete_btn
+{
+    position: absolute;
+    float: left;
+    cursor: pointer;
+    margin-left: 1389px;
+    margin-top: 30px;
+    width: 123px;
+    height: 45px;
+    background-color: #273D49CC;
+    border: 1px solid #97A1A9;
+    border-radius: 10px;
+    opacity: 1;
+    
+}
+.menu_bar #delete_btn img{
+    width: 15px;
+    height: 15px;
+    padding: 0%;
+    margin-left: -70px;
+    margin-top: 13px;
+}
+.menu_bar #delete_btn p
+{
+    margin-top: -22px;
+    margin-left: 35px;
+    font-size: 20px;
+    font-style: normal;
+    font-family: 'Ubuntu', sans-serif;
+    letter-spacing: 0px;
+    color: #97A1A9;
+    opacity: 1;
+    width: 37px;
+    height: 23px;
+}
+.search_bar
+{
+    cursor: pointer;
+    position: absolute;
+    margin-left: 1540px;
+    margin-top: 30px;
+    width: 340px;
+    height: 45px;
+    padding: 0%; 
+}
+.search_bar input[type=text] {
+    position: absolute;
+    height: 45px;
+    width: 250px;
+    background-color: #273D49CC;
+    margin-right: 0%;
+    display: inline-block;
+    color: #FFFFFF;
+    padding-left: 20px;
+    border-top: 2px solid var(--blue);
+    border-bottom: 2px solid var(--blue);
+    border-left: 2px solid var(--blue);
+    border-top-left-radius: 10px;
+    border-bottom-left-radius: 10px;
+    border-right: none;
+  }
+
+  .search_bar input[type=text] :visited
+  {
+    border-top: 2px solid var(--btnblue);
+    border-bottom: 2px solid var(--btnblue);
+    border-left: 2px solid var(--btnblue);
+    
+
+  }
+#search_btn
+{
+    position: absolute;
+    background-color: #273D49CC;
+    height: 45px;
+    display: inline-block;
+    margin-left: 250px;
+    border: none;
+    cursor: pointer;
+    border-top: 2px solid var(--blue);
+    border-bottom: 2px solid var(--blue);
+    border-right: 2px solid var(--blue);
+    border-top-right-radius: 10px;
+    border-bottom-right-radius: 10px;
+    border-left: none;
+}
+.table{
+	display:block;
+margin-top: 105px;
+margin-left: 101px;
+margin-right: 101px;
+width: 1750px;
+height: 620px;
+overflow-y: scroll;
+
+}
+table {
+    border-collapse: collapse;
+}
+
+td {
+    border: none;
+}
+.table #tab
+{
+    width: 100%;
+    text-align: left;   
+}
+.table tr th
+{
+    color: #97A1A9;
+    font-size: 21px;
+    font-style: normal;
+    font-family: 'Ubuntu', sans-serif;
+    padding-bottom: 23px;
+    
+
+}
+
+.table input[type=checkbox] {
+    
+    width: 16px;
+    height: 16px;
+    border: 2px solid #97A1A9;
+    border-radius: 3px;
+    background-color: #273D49CC;
+    opacity: 1;
+    
+  }
+
+  .table tr td
+{
+    font-size: 24px;
+    font-style: normal;
+    font-family: 'Ubuntu', sans-serif;
+    letter-spacing: 0px;
+    color: #FFFFFF;
+    opacity: 1;
+    padding-bottom: 23px;
+
+}
+.items
+{
+	width: 500px;
+	margin-left:698px;
+	margin-top:246px;
+}
+.norecord h1
+{
+	font-size: 28px;
+    font-style: normal;
+    font-weight:normal;
+    font-family: 'Ubuntu', sans-serif;
+    text-align:center;
+letter-spacing: 0px;
+color: #FFFFFF;
+opacity: 1;
+}
+.norecord h3
+{
+	font-size: 18px;
+    font-style: normal;
+    font-weight:normal;
+    font-family: 'Ubuntu', sans-serif;
+    text-align:center;
+letter-spacing: 0px;
+color: #C0C6CA;
+opacity: 1;
+}
+.norecord #error
+{
+	margin-left:232px;
+width: 39px;
+height: 39px;
+opacity: 1;
+}
+.norecord h4
+{
+	
+height: 23px;
+text-align: center;
+font-size: 32px;
+    font-style: normal;
+    font-weight:normal;
+    font-family: 'Ubuntu', sans-serif;
+letter-spacing: 0px;
+color: #14AFF1;
+opacity: 1;
+cursor:pointer;
+}
+
+
+.edit_invoice
+{
+    display: none;
+    position: absolute;
+    margin-top: 210px;
+    margin-left: 689px;
+    width: 543px;
+    height: 511px;
+    box-shadow: 0px 8px 24px #00000029;
+    background-color: #2A3E4C;
+    
+}
+.edit_invoice .title
+{
+    position: absolute;
+    width: 100%;
+    height: 91px;
+    border-bottom: 4px solid #283A46;
+    
+}
+.edit_invoice .title h2{
+    margin-top: 30px;
+    margin-left: 30px;
+    width: 200px;
+    font-family: 'Ubuntu', sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 32px;
+    color: #FFFFFF;
+    text-transform: capitalize;
+    opacity: 1;
+}
+.edit_invoice .title img{
+    margin-top: -60px;
+    margin-right: 30px;
+    float: right;
+    width: 24px;
+    height: 24px;
+    cursor: pointer;
+}
+.invoice_amount
+{
+    margin-top:121px;
+    margin-left: 30px;
+    height: 45px;
+}
+.invoice_amount h2
+{
+    position: absolute;
+    float: left;
+    text-align: left;
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: normal;
+    letter-spacing: 0.19px;
+    color: #97A1A9;
+    width: 200px;
+    opacity: 1;
+    margin-top: 8px;
+}
+.invoice_amount input[type=text]
+{
+    position: absolute;
+    float: left;
+    margin-left: 194px;
+    width: 300px;
+    height: 45px;
+    background-color: #283A46;
+    text-align: left;
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: normal;
+    letter-spacing: 0.19px;
+    color: #FFFFFF;
+    opacity: 1;
+    padding-left: 10px;
+    border: 1px solid #356680;
+    border-radius: 10px;
+}
+.Notes
+{
+    margin-top: 28px;
+   margin-left: 30px;
+width: 483px;
+height: 191px;
+}
+.Notes h2
+{
+    position: absolute;
+    float: left;
+    text-align: left;
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: normal;
+    letter-spacing: 0.19px;
+    color: #97A1A9;
+    width: 200px;
+    opacity: 1;
+    margin-top: 8px;
+}
+.Notes input[type=text]
+{
+    position: absolute;
+    float: left;
+    margin-left: 194px;
+    width: 300px;
+    height: 191px;
+    background-color: #283A46;
+    text-align: left;
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: normal;
+    letter-spacing: 0.19px;
+    color: #FFFFFF;
+    opacity: 1;
+    padding-left: 10px;
+    border: 1px solid #356680;
+    border-radius: 10px;
+}
+.footer_part
+{
+    position: absolute;
+    margin-top: 45px;
+    width: 100%;
+    height: 67px;
+    display: inline-block;
+    border-top: 4px solid #283A46;
+    padding-top: 10px;
+    padding-left: 30px;
+    
+
+}
+.footer_part h2
+{
+    cursor: pointer;
+    width: 60px;
+    height: 23px;
+    text-align: left;
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: normal;
+    letter-spacing: 0px;
+    color: #14AFF1;
+    opacity: 1;
+    float: left;
+}
+.footer_part button
+{
+    float: right;
+    margin-right: 30px;
+}
+.footer_part #reset_btn
+{
+    cursor: pointer;
+    width: 92px;
+height: 45px;
+border: 1px solid #14AFF1;
+border-radius: 10px;
+font-family: 'Ubuntu', sans-serif;
+font-size: 20px;
+font-style: normal;
+font-weight: normal;
+letter-spacing: 0px;
+color: #FFFFFF;
+background-color: #283A46;
+opacity: 1;
+}
+#reset_btn :hover
+{
+    background-color: #14AFF1;
+}
+.footer_part #save_btn
+{
+   cursor: pointer;
+    width: 82px;
+    height: 45px;
+    background: #14AFF1 0% 0% no-repeat padding-box;
+    border-radius: 10px;
+    border: none;
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: normal;
+letter-spacing: 0px;
+color: #FFFFFF;
+opacity: 1;
+}
+
+
+.delete_box
+{
+    display: none;
+    position: absolute;
+    margin-top: 294px;
+    margin-left: 654px;
+    width: 611px;
+    height: 342px;
+    background: #2A3F4D 0% 0% no-repeat padding-box;
+    box-shadow: 0px 8px 24px #00000029;
+    border-radius: 6px;
+    opacity: 1;
+    
+   
+}
+.headerpart
+{
+    border-bottom: 4px solid #283A46;
+}
+.delete_box h2{
+    margin-top: 30px;
+    margin-left: 30px;
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 28px;
+    font-style: normal;
+    font-weight: normal;
+letter-spacing: 0px;
+color: #FFFFFF;
+opacity: 1;
+}
+.delete_box img
+{
+    margin-top: -55px;
+    margin-right: 30px;
+    float: right;
+    width: 24px;
+height: 24px;
+opacity: 1;
+cursor: pointer;
+}
+.delete_box p{
+text-align: left;
+font: normal normal normal 20px/24px Ubuntu;
+letter-spacing: 0px;
+color: #C0C6CA;
+margin-left: 30px;
+margin-right: 50px;
+}
+.delete_box .footerpart
+{
+    margin-top: 26px;
+    display: inline-block;
+    width: 100%;
+    height: 67px;
+    border-top: 4px solid #283A46;
+    padding-top: 20px;
+}
+.delete_box #deletebtn
+{
+    margin-right: 30px;
+    float: right;
+    width: 100px;
+height: 45px;
+background: #14AFF1 0% 0% no-repeat padding-box;
+border: 1px solid #14AFF1;
+border-radius: 10px;
+opacity: 1;
+font-family: 'Ubuntu', sans-serif;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: normal;
+letter-spacing: 0px;
+color: #FFFFFF;
+cursor: pointer;
+
+}
+.delete_box #cancelbtn
+{
+    margin-right: 30px;
+    float: right;
+    width: 100px;
+height: 45px;
+background: #2C404E 0% 0% no-repeat padding-box;
+border: 1px solid #14AFF1;
+font-family: 'Ubuntu', sans-serif;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: normal;
+letter-spacing: 0px;
+color: #FFFFFF;
+border-radius: 10px;
+opacity: 1;
+cursor: pointer;
+
+}
+.add_invoice
+{
+    position: absolute;
+    margin-top: 226px;
+margin-left: 407px;
+width: 1106px;
+height: 509px;
+background: #2A3E4C 0% 0% no-repeat padding-box;
+box-shadow: 0px 8px 24px #00000029;
+border-radius: 6px;
+opacity: 1;
+}
+.add_invoice .addheader
+{
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 28px;
+    font-style: normal;
+    font-weight: normal;
+letter-spacing: 0px;
+color: #FFFFFF;
+text-transform: capitalize;
+opacity: 1;
+border-bottom: 4px solid #283A46;
+}
+
+.add_invoice h2{
+    margin-top: 30px;
+    margin-left: 30px;
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 28px;
+    font-style: normal;
+    font-weight: normal;
+letter-spacing: 0px;
+color: #FFFFFF;
+opacity: 1;
+}
+.add_invoice img
+{
+    margin-top: -55px;
+    margin-right: 30px;
+    float: right;
+    width: 24px;
+height: 24px;
+opacity: 1;
+cursor: pointer;
+}
+.add_invoice input[type=text]
+{
+	font-size: 24px;
+    font-style: normal;
+    font-weight:normal;
+    font-family: 'Ubuntu', sans-serif;
+letter-spacing: 0px;
+color: #FFFFFF;
+opacity: 1;
+ float: left;
+    width: 300px;
+    height: 45px;
+    margin-top: 2px;
+    margin-left: 20px;
+    padding-left: 20px;
+    background: #283A46 0% 0% no-repeat padding-box;
+border: 1px solid #356680;
+border-radius: 10px;
+opacity: 1;
+}
+.add_invoice input[type=date]
+{
+	font-size: 24px;
+    font-style: normal;
+    font-weight:normal;
+    font-family: 'Ubuntu', sans-serif;
+letter-spacing: 0px;
+color: #FFFFFF;
+opacity: 1;
+ float: left;
+    width: 300px;
+    height: 45px;
+    margin-top: 2px;
+    margin-left: 20px;
+    padding-left: 20px;
+    background: #283A46 0% 0% no-repeat padding-box;
+border: 1px solid #356680;
+border-radius: 10px;
+opacity: 1;
+}
+::-webkit-calendar-picker-indicator {
+    filter: invert(1);
+}
+.invoicedetails .row
+{
+    margin-top:40px;
+    position: absolute;
+    display: flex;
+    width: 100%;
+  flex-direction: row;
+  
+}
+.part{
+    margin-right: 20px;
+}
+.flex-row > .part {
+    width: 50%;
+  }
+.invoicedetails h2{
+    float: left;
+    margin-top: 10px;
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: normal;
+letter-spacing: 0.19px;
+color: #97A1A9;
+}
+.invoicedetails #inputtext
+{
+    float: left;
+    width: 300px;
+    height: 45px;
+    margin-top: 2px;
+    margin-left: 10px;
+    padding-left: 20px;
+    background: #283A46 0% 0% no-repeat padding-box;
+border: 1px solid #356680;
+border-radius: 10px;
+opacity: 1;
+}
+
+.add_invoice
+{
+    position: absolute;
+    display: none;
+}
+.roww
+{
+    position: absolute;
+    margin-top: 90px;
+    display: flex;
+    height: 250px;
+    width: 100%;
+    border-bottom: 4px solid #283A46;   
+}
+.roww .side 
+{
+    
+    width: 50%;
+    display: block;
+    
+    
+}
+.roww .side .col
+{
+    float: left;
+    flex-direction: column;
+    width: 100%;
+    margin-top: 28px;
+}
+.otherside
+{
+    width: 50%;
+   
+}
+.addfooter
+{
+    
+    position: absolute;
+    margin-top: 340px;
+    width: 100%;
+    height: 50px;
+}
+.addfooter h2{
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: normal;
+letter-spacing: 0px;
+color: #14AFF1;
+opacity: 1;
+cursor: pointer;
+}
+.addfooter #addbtn
+{
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: normal;
+    letter-spacing: 0px;
+color: #FFFFFF;
+opacity: 1;
+    float: right;
+    width: 77px;
+height: 45px;
+    background: #97A1A9 0% 0% no-repeat padding-box;
+    border-radius: 10px;
+    border: none;
+    opacity: 1;
+    margin-right: 30px;
+    margin-top: -48px;
+    cursor: default;
+}
+.addfooter #clearbtn
+{
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: normal;
+letter-spacing: 0px;
+color: #FFFFFF;
+opacity: 1;
+    float: right;
+    width: 87px;
+height: 45px;
+border: 1px solid #14AFF1;
+border-radius: 10px;
+opacity: 1;
+margin-right: 131px;
+cursor: pointer;
+background-color: transparent;
+    margin-top: -48px;
+}
+.searchbox
+{
+    position: absolute;
+    display:none;
+    margin-top: 266px;
+margin-left: 101px;
+margin-right: 101px;
+width: 1750px;
+height: 620px;
+}
+table {
+    border-collapse: collapse;
+}
+
+td {
+    border: none;
+}
+.searchbox table
+{
+    width: 100%;
+    text-align: left;   
+}
+.searchbox tr th
+{
+    color: #97A1A9;
+    font-size: 21px;
+    font-style: normal;
+    font-family: 'Ubuntu', sans-serif;
+    padding-bottom: 23px;
+    
+
+}
+
+.searchbox input[type=checkbox] {
+    
+    width: 16px;
+    height: 16px;
+    border: 2px solid #97A1A9;
+    border-radius: 3px;
+    background-color: #273D49CC;
+    opacity: 1;
+    
+  }
+  .searchbox tr td
+{
+    font-size: 24px;
+    font-style: normal;
+    font-family: 'Ubuntu', sans-serif;
+    letter-spacing: 0px;
+    color: #FFFFFF;
+    opacity: 1;
+    padding-bottom: 23px;
+
+}
+@media screen and (min-width: 1400px) {
+  body {
+    width:1366px;
+    height:768px;
+  }
+}

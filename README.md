@@ -1,4 +1,4 @@
-# AI-Enabled-Fintech-B2B-Invoice-Management-Application
+# AI-Enabled Fintech B2B Invoice Management Application
 Problem Statement for Application Development:
 
 ● Data Preprocessing of invoices dataset. 
